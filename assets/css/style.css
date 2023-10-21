@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(65, 70, 67);
+}
+
+
+.header {
+    position: fixed;
+    background-color: #49f190;
+    z-index: 100;
+}
