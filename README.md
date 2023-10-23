@@ -13,7 +13,14 @@ Temas :
 <br>
 -Drug delivery
 
+## Dia 2 do projeto:
 
-Dia 3 do projeto:
+![Captura de tela 2023-10-22 163125](https://github.com/glrmrissi/trabalhodebiotec/assets/102769917/c193995d-1228-46b1-9cc5-f5011e736952)
 
-![Captura de tela 2023-10-22 163125](https://github.com/glrmrissi/trabalhodebiotec/assets/102769917/b06cff3f-7630-4fdd-b4bd-f97be150556d)
+
+## Dia 3 do projeto:
+
+![Captura de tela 2023-10-22 220906](https://github.com/glrmrissi/trabalhodebiotec/assets/102769917/76a7a9da-b018-4dc2-95ac-0f320082f9e8)
+
+
+![Captura de tela 2023-10-22 220824](https://github.com/glrmrissi/trabalhodebiotec/assets/102769917/045904a6-5238-46e1-92e1-657e3e9637de)
