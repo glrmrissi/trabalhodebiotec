@@ -2,16 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: rgb(78, 78, 78);
 }
 
- h3 {
-    color: #ff0000;
- }
+
 .header {
     background-color: #ffffff;
-    margin-bottom: 10vh;
+    margin-bottom: 7vh;
     z-index: 100;
 }
 
@@ -20,6 +19,17 @@ body {
     width: 100%;
     grid-template-columns: 100%;
     background-color: rgb(22, 22, 22);
+    padding-bottom: 1vh;
+}
+
+
+.transition-section {
+    background-color: black;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.transition-section:nth-child(odd) {
+    background-color: white;
 }
 
 .img__sangue {
@@ -39,7 +49,7 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns:  80% 20%;
+    grid-template-columns: 80% 20%;
     margin-left: 1.1em;
 }
 
@@ -50,9 +60,32 @@ body {
     margin-left: 1.1em;
 }
 
-
-@media (min-width: 700px) {
-    .section {
-
-    }
+.h3__sangue {
+    color: rgb(255, 0, 0);
 }
+
+.texts__sangue h5 {
+    color: rgba(107, 104, 248, 0.726);
+}
+
+.section_2 {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    padding-top: 7vh;
+    background-color: #ffffff;
+}
+
+.button_clique {
+    text-decoration: none;
+    color: #fff;
+    background-color: blue;
+    border-radius: 16px;
+    padding: 10px;
+
+}
+
+.button_clique:hover {
+    color: rgb(189, 189, 189);
+}
+
