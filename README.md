@@ -24,3 +24,8 @@ Temas :
 
 
 ![Captura de tela 2023-10-22 220824](https://github.com/glrmrissi/trabalhodebiotec/assets/102769917/045904a6-5238-46e1-92e1-657e3e9637de)
+
+
+## Dia 4
+
+### Pausa
