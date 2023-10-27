@@ -33,3 +33,8 @@ Temas :
 ## Dia 5
 
 ### Pausa
+
+## Dia 6
+
+### Pausa
+
