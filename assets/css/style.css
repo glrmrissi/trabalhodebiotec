@@ -7,24 +7,17 @@ body {
     background-color: rgb(78, 78, 78);
 }
 
-
-.header {
-    background-color: #ffffff;
-    margin-bottom: 7vh;
-    z-index: 100;
-}
-
 .section {
     display: grid;
     width: 100%;
     grid-template-columns: 100%;
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(0, 0, 0);
     padding-bottom: 1vh;
 }
 
 
 .transition-section {
-    background-color: black;
+    background-color: #111722;
     transition: background-color 0.5s ease-in-out;
 }
 
@@ -65,7 +58,7 @@ body {
 }
 
 .texts__sangue h5 {
-    color: rgba(107, 104, 248, 0.726);
+    color: rgb(255, 255, 255);
 }
 
 .section_2 {
@@ -74,6 +67,11 @@ body {
     height: 100vh;
     padding-top: 7vh;
     background-color: #ffffff;
+    margin-bottom: 20vh;
+}
+
+.section_2 div {
+    margin-bottom: 7vh;
 }
 
 .button_clique {
@@ -82,10 +80,25 @@ body {
     background-color: blue;
     border-radius: 16px;
     padding: 10px;
-
 }
 
 .button_clique:hover {
     color: rgb(189, 189, 189);
 }
 
+.section_3 {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 100%;
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 1vh;
+}
+
+.div_3 {
+    margin-top: 7vh;
+}
+
+.div_3 h4 {
+    font-size: ;
+}
