@@ -38,3 +38,6 @@ Temas :
 
 ### Pausa
 
+## Dia 7
+
+![Captura de tela 2023-11-12 141744](https://github.com/glrmrissi/trabalhodebiotec/assets/102769917/c49396ab-4589-4d41-b29c-9c47f97a8ac8)
