@@ -19,6 +19,7 @@
 <body>
     <header class="container-fluid header">
     </header>
+    
     <section class="transition-section container-fluid align-middle section">
         <div class="mw-100 container mx-auto">
             <div class="title__container text-center">
@@ -98,23 +99,24 @@
             </div>
         </div>
     </section>
+    <div id="btnTop" onmousedown="ocultar()">
+        <i class="arrow up"></i>
+    </div>
     <section class="transition-section container-fluid section_2">
         <div class="text-center align-middle">
             <h3 class="m-3">Para mais informações:</h3>
-            <a class="button_clique" href="https://www.saude.pr.gov.br/Pagina/Doacao-de-Sangue" target="_blank">Clique
+            <a class="button_clique button_sangue" href="https://www.saude.pr.gov.br/Pagina/Doacao-de-Sangue" target="_blank">Clique
                 aqui</a>
         </div>
         <img class="img-fluid" width="200" src="assets/img/qrcode.png" alt="">
         <div class="wrapper_video videos text-center align-middle m-5">
             <h3 class="m-3">Veja também:</h3>
-            <iframe class="img-fluid"  
-                src="https://www.youtube.com/embed/NhDHK7As13c?si=aOdEaPoqpp39ZSgi" title="YouTube video player"
-                frameborder="0"
+            <iframe class="img-fluid" src="https://www.youtube.com/embed/NhDHK7As13c?si=aOdEaPoqpp39ZSgi"
+                title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
-            <iframe class="img-fluid"
-                src="https://www.youtube.com/embed/54nSCGkjaqA?si=ESviq157F-gzjMWp" title="YouTube video player"
-                frameborder="0"
+            <iframe class="img-fluid" src="https://www.youtube.com/embed/54nSCGkjaqA?si=ESviq157F-gzjMWp"
+                title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </div>
@@ -156,7 +158,7 @@
     <section class="transition-section container-fluid section_2">
         <div class="text-center align-middle">
             <h3 class="m-3">Para mais informações:</h3>
-            <a class="button_clique"
+            <a class="button_clique button_gen"
                 href="https://www.msdmanuals.com/pt-br/casa/doen%C3%A7as-imunol%C3%B3gicas/transplante/transplante-de-c%C3%A9lulas-tronco"
                 target="_blank">Clique aqui</a>
         </div>
@@ -173,22 +175,47 @@
         <div class="mw-100 container mx-auto">
 
             <div class="title__container text-center align-middle">
-                <h3 class="align-middle h3__sangue m-3">Aconselhamento genético</h3>
+                <h3 class="align-middle h3__gen m-3">Aconselhamento genético</h3>
             </div>
             <div class="grid text-left p__container">
                 <div class="texts__sangue">
-                    <p class="paragrafos">O aconselhamento genético é uma área da saúde que visa fornecer informações e apoio a indivíduos ou famílias que estão lidando com questões relacionadas à hereditariedade e genética. Esse processo envolve profissionais de saúde especializados, como geneticistas, conselheiros genéticos e outros profissionais da saúde.</p>
-                    <p class="paragrafos">O principal objetivo do aconselhamento genético é ajudar as pessoas a compreenderem a natureza e as implicações das condições genéticas, bem como a tomar decisões informadas sobre questões relacionadas à saúde. Isso é particularmente relevante em casos em que há um risco aumentado de uma condição genética específica, seja por histórico familiar, idade avançada dos pais, consanguinidade ou outros fatores.</p>
-                    <h4 class="h4-gen">Existem diversas situações em que o aconselhamento genético pode ser procurado:</h4>
-                    <p class="paragrafos">Casais que desejam ter filhos podem procurar aconselhamento genético para entenderem os riscos de transmitir doenças genéticas para seus descendentes. Isso pode incluir a análise de histórico familiar, exames genéticos e discussões sobre opções de reprodução assistida.</p>
+                    <p class="paragrafos">O aconselhamento genético é uma área da saúde que visa fornecer informações e
+                        apoio a indivíduos ou famílias que estão lidando com questões relacionadas à hereditariedade e
+                        genética. Esse processo envolve profissionais de saúde especializados, como geneticistas,
+                        conselheiros genéticos e outros profissionais da saúde.</p>
+                    <p class="paragrafos">O principal objetivo do aconselhamento genético é ajudar as pessoas a
+                        compreenderem a natureza e as implicações das condições genéticas, bem como a tomar decisões
+                        informadas sobre questões relacionadas à saúde. Isso é particularmente relevante em casos em que
+                        há um risco aumentado de uma condição genética específica, seja por histórico familiar, idade
+                        avançada dos pais, consanguinidade ou outros fatores.</p>
+                    <h4 class="h4-gen">Existem diversas situações em que o aconselhamento genético pode ser procurado:
+                    </h4>
+                    <p class="paragrafos">Casais que desejam ter filhos podem procurar aconselhamento genético para
+                        entenderem os riscos de transmitir doenças genéticas para seus descendentes. Isso pode incluir a
+                        análise de histórico familiar, exames genéticos e discussões sobre opções de reprodução
+                        assistida.</p>
                     <h4 class="h4-gen">Gravidez de Alto Risco:</h4>
-                    <p class="paragrafos">Mulheres grávidas que apresentam fatores de risco genético ou que tenham recebido resultados preocupantes em exames pré-natais podem buscar aconselhamento genético para compreender as implicações e tomar decisões informadas sobre a continuidade da gravidez.</p>
+                    <p class="paragrafos">Mulheres grávidas que apresentam fatores de risco genético ou que tenham
+                        recebido resultados preocupantes em exames pré-natais podem buscar aconselhamento genético para
+                        compreender as implicações e tomar decisões informadas sobre a continuidade da gravidez.</p>
                     <h4 class="h4-gen">Doenças Genéticas Hereditárias:</h4>
-                    <p class="paragrafos">Indivíduos ou famílias que têm histórico de doenças genéticas hereditárias podem procurar aconselhamento genético para entenderem melhor a condição, explorar opções de tratamento e tomar decisões sobre como gerenciar ou prevenir a transmissão da condição para as futuras gerações.</p>
+                    <p class="paragrafos">Indivíduos ou famílias que têm histórico de doenças genéticas hereditárias
+                        podem procurar aconselhamento genético para entenderem melhor a condição, explorar opções de
+                        tratamento e tomar decisões sobre como gerenciar ou prevenir a transmissão da condição para as
+                        futuras gerações.</p>
                     <h4 class="h4-gen">Testes Genéticos:</h4>
-                    <p class="paragrafos">O aconselhamento genético frequentemente precede e sucede os testes genéticos. Os profissionais ajudam na interpretação dos resultados, oferecem suporte emocional e discutem as implicações das informações obtidas.</p>
+                    <p class="paragrafos">O aconselhamento genético frequentemente precede e sucede os testes genéticos.
+                        Os profissionais ajudam na interpretação dos resultados, oferecem suporte emocional e discutem
+                        as implicações das informações obtidas.</p>
                     <hr>
-                    <p class="paragrafos">Durante as sessões de aconselhamento genético, os profissionais explicam informações complexas de forma acessível, oferecem suporte emocional e ajudam os indivíduos a tomarem decisões informadas sobre sua saúde e a saúde de suas futuras gerações. O aconselhamento genético também enfatiza a importância do respeito à autonomia, privacidade e confidencialidade das informações genéticas.</p>
+                    <p class="paragrafos">Durante as sessões de aconselhamento genético, os profissionais explicam
+                        informações complexas de forma acessível, oferecem suporte emocional e ajudam os indivíduos a
+                        tomarem decisões informadas sobre sua saúde e a saúde de suas futuras gerações. O aconselhamento
+                        genético também enfatiza a importância do respeito à autonomia, privacidade e confidencialidade
+                        das informações genéticas.</p>
+                        <div class="text-center m-2">
+                            <img class="img-fluid text-center" src="assets/img/Portada-Igenomix_gc-flow.jpg" alt="" srcset="">
+                        </div>
                 </div>
             </div>
         </div>
@@ -197,16 +224,115 @@
     <section class="transition-section container-fluid section_2">
         <div class="text-center align-middle">
             <h3 class="m-3">Para mais informações:</h3>
-            <a class="button_clique"
-                href="https://www.dasagenomica.com/blog/aconselhamento-genetico/"
+            <a class="button_clique" href="https://www.dasagenomica.com/blog/aconselhamento-genetico/"
                 target="_blank">Clique aqui</a>
         </div>
         <img class="img-fluid" width="200" src="assets/img/gen.jpg" alt="">
         <div class="wrapper_video videos text-center align-middle m-5">
             <h3 class="m-3">Veja também:</h3>
-            <iframe class="img-fluid" src="https://www.youtube.com/embed/65kkggIUwXQ?si=pBz3EdNJfyZqVyUf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="img-fluid" src="https://www.youtube.com/embed/65kkggIUwXQ?si=pBz3EdNJfyZqVyUf"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
         </div>
     </section>
+    <section class="transition-section container-fluid align-middle section">
+        <div class="mw-100 container mx-auto">
+
+            <div class="title__container text-center align-middle">
+                <h3 class="align-middle h3_vac m-3">Vacinas</h3>
+            </div>
+            <div class="grid text-left p__container">
+                <div class="texts__sangue">
+                    <p class="paragrafos">
+                        As vacinas são produtos biológicos projetados para fortalecer o sistema imunológico humano
+                        contra agentes patogênicos, como vírus e bactérias, que causam doenças. O objetivo principal das
+                        vacinas é proporcionar imunidade ativa, ou seja, permitir que o sistema imunológico reconheça e
+                        combata eficazmente os patógenos invasores.</p>
+                    <p class="paragrafos">A forma como as vacinas funcionam é simulando a presença do agente patogênico,
+                        sem causar a doença real. Elas contêm componentes específicos do patógeno, como proteínas virais
+                        ou fragmentos de parede celular bacteriana, que são inofensivos por si mesmos. Esses componentes
+                        são chamados de antígenos.</p>
+                    <p class="paragrafos">O benefício central das vacinas é que, após a exposição aos antígenos da
+                        vacina, o sistema imunológico "lembra" como combater o patógeno em questão. Se a pessoa for
+                        posteriormente exposta ao patógeno real, o sistema imunológico pode montar uma resposta rápida e
+                        eficaz, prevenindo ou atenuando a infecção.</p>
+                    <p class="paragrafos">Existem vários tipos de vacinas, incluindo:</p>
+                    <h4 class="h4_vac">Vírus Atenuados ou Inativados:</h4>
+                    <p class="paragrafos">Algumas vacinas contêm o vírus ou bactéria enfraquecido (atenuado) ou morto (inativado). Exemplos incluem a vacina contra a poliomielite inativada e a vacina contra o sarampo, caxumba e rubéola (SCR).</p>
+                    <h4 class="h4_vac">Subunidades Proteicas ou Conjugadas:</h4>
+                    <p class="paragrafos">Outras vacinas usam apenas partes específicas do patógeno, como proteínas ou polissacarídeos. A vacina contra a hepatite B é um exemplo de uma vacina de subunidade proteica.</p>
+                    <h4 class="h4_vac">Vacinas de RNA ou DNA: </h4>
+                    <p class="paragrafos">Avanços recentes incluem vacinas de ácido ribonucleico (RNA) ou ácido desoxirribonucleico (DNA), que fornecem instruções genéticas para o corpo produzir antígenos virais ou bacteriano</p>
+                    <div class="text-center m-2">
+                        <img class="img-fluid text-center" src="assets/img/8e94623a-bd03-452a-8891-cf9c3aa8c2a3.jpeg" alt="" srcset="">
+                    </div>
+                    <p class="paragrafos">As vacinas desempenham um papel crucial na prevenção de doenças infecciosas, na promoção da saúde pública e na proteção de comunidades inteiras contra surtos. Através da imunização em massa, as vacinas contribuem para a criação de imunidade de rebanho, reduzindo a disseminação de doenças em níveis populacionais.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="transition-section container-fluid section_2">
+        <div class="text-center align-middle">
+            <h3 class="m-3">Para mais informações:</h3>
+            <a class="button_clique button_vac" href="https://www.gov.br/saude/pt-br/vacinacao"
+                target="_blank">Clique aqui</a>
+        </div>
+        <img class="img-fluid" width="200" src="assets/img/vacinascorreto.png" alt="">
+        <div class="wrapper_video videos text-center align-middle m-5">
+            <h3 class="m-3">Veja também:</h3>
+            <iframe class="img-fluid" src="https://www.youtube.com/embed/N2Jx4U3A88Q?si=7rR3vgl3UkpdTK_D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section class="transition-section container-fluid align-middle section">
+        <div class="mw-100 container mx-auto">
+
+            <div class="title__container text-center align-middle">
+                <h3 class="align-middle h3_drug m-3">Drug Delivery: Entrega Controlada de Medicamentos</h3>
+            </div>
+            <div class="grid text-left p__container">
+                <div class="texts__sangue">
+                    <p class="paragrafos">O termo "Drug Delivery" se refere ao campo da ciência e engenharia que se concentra no desenvolvimento de sistemas e técnicas para administrar medicamentos de maneira específica, controlada e eficiente no organismo. O objetivo central do drug delivery é otimizar a eficácia terapêutica dos medicamentos, minimizando efeitos colaterais indesejados e melhorando a adesão do paciente ao tratamento.</p>
+                    <p class="paragrafos">Um dos desafios na administração de medicamentos é garantir que a substância ativa alcance o local alvo no corpo na quantidade adequada e no momento certo. Para enfrentar essa questão, diversas estratégias de drug delivery foram desenvolvidas, cada uma adaptada para atender às necessidades específicas de diferentes tipos de medicamentos e condições médicas.</p>
+                    <h4 class="h5_drug">Principais Abordagens de Drug Delivery:</h4>
+                    <h5 class="h5_drug">Sistemas de Liberação Prolongada:</h5>
+                    <p class="paragrafos">Esses sistemas visam manter níveis terapêuticos constantes da substância ativa por um período estendido, reduzindo a necessidade de administrações frequentes. Isso pode ser alcançado por meio de formulações que liberam o medicamento lentamente ao longo do tempo.</p>
+                    <h5 class="h5_drug">Nanopartículas e Nanotecnologia: </h5>
+                    <p class="paragrafos">Utilizando partículas em escala nanométrica, os cientistas podem criar sistemas de drug delivery que melhoram a solubilidade, estabilidade e direcionamento do medicamento para áreas específicas do corpo. Essa abordagem é particularmente útil para medicamentos com baixa solubilidade ou para atingir células específicas em terapias contra o câncer, por exemplo.</p>
+                    <h5 class="h5_drug">Sistemas de Administração Direcionada (Targeted Delivery):</h5>
+                    <p class="paragrafos">Esses sistemas visam direcionar o medicamento para um local específico no corpo, minimizando a exposição a tecidos saudáveis. Marcadores específicos, como anticorpos ou ligantes, podem ser usados para guiar o medicamento até o local desejado.</p>
+                    <h5 class="h5_drug">Sistemas de Administração Controlada por Estímulos: </h5>
+                    <p class="paragrafos">Alguns sistemas de drug delivery respondem a estímulos específicos no ambiente do corpo, como pH, temperatura ou concentrações de determinadas substâncias. Isso permite uma liberação controlada do medicamento em resposta às condições locais.</p>
+                    <h4 class="h5_drug">Benefícios do Drug Delivery:</h4>
+                    <h5 class="h5_drug">Melhora da Eficácia Terapêutica: </h5>
+                    <p class="paragrafos">Ao otimizar a entrega do medicamento, é possível aumentar a eficácia do tratamento.</p>
+                    <h5 class="h5_drug">Redução de Efeitos Colaterais:</h5>
+                    <p class="paragrafos">A entrega controlada pode minimizar a exposição de tecidos saudáveis a altas concentrações de medicamentos, reduzindo assim os efeitos colaterais indesejados.</p>
+                    <h5 class="h5_drug">Melhoria na Adesão ao Tratamento: </h5>
+                    <p class="paragrafos">Sistemas de liberação prolongada podem reduzir a frequência das doses, melhorando a adesão do paciente ao tratamento.</p>
+                    <p class="paragrafos">O avanço contínuo nas tecnologias de drug delivery representa uma área promissora na busca por tratamentos mais eficazes e personalizados, proporcionando benefícios significativos para pacientes e profissionais de saúde.</p>
+                
+                
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="transition-section container-fluid section_2">
+        <div class="text-center align-middle">
+            <h3 class="m-3">Para mais informações:</h3>
+            <a class="button_clique button_drug" href="https://sbdrj.org.br/drug-delivery-a-tecnica-que-promete-potencializar-os-tratamentos-esteticos/"
+                target="_blank">Clique aqui</a>
+        </div>
+        <img class="img-fluid" width="200" src="assets/img/drug.png" alt="">
+        <div class="wrapper_video videos text-center align-middle m-5">
+            <h3 class="m-3">Veja também:</h3>
+            <iframe class="img-fluid" src="https://www.youtube.com/embed/0h-kFYrx4Hs?si=CzkgCKGcaNaVrSTT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

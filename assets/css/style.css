@@ -24,9 +24,6 @@ body {
     transition: background-color 0.5s ease-in-out;
 }
 
-.transition-section:nth-child(odd) {
-    background-color: white;
-}
 
 .img__sangue {
     position: absolute;
@@ -73,8 +70,6 @@ body {
     margin-bottom: 20vh;
 }
 
-
-
 .section_2 div {
     margin-bottom: 7vh;
 }
@@ -85,6 +80,7 @@ body {
     background-color: blue;
     border-radius: 16px;
     padding: 10px;
+    transition: .3s;
 }
 
 .button_clique:hover {
@@ -113,7 +109,100 @@ h4 {
 h5 {
     font-size: 1.1em;
 }
-.h4-gen {
-    color: rgb(30, 255, 0);
+
+
+.h3__gen {
+    color: #3700ff;
 }
 
+.h3_vac {
+    color: aqua;
+}
+.h4-gen {
+    color: #010cad;
+}
+
+.h3_drug {
+    color: #1eff00;
+}
+
+.h5_drug {
+    color: #4ae736;
+}
+.h4_vac {
+    color: rgb(0, 225, 255)
+}
+
+.button_drug {
+    background-color: #4ae736;
+    color: #000;
+}
+
+.button_drug:hover {
+    background-color: #419736;
+    color: #252525;
+}
+
+.button_vac {
+    background-color: aqua;
+    color: #000;
+}
+
+.button_vac:hover {
+    background-color: rgb(21, 221, 221);
+    color: #252525;
+}
+
+.button_gen {
+    background-color: rgb(238, 255, 0);
+    color: #000;
+}
+
+.button_gen:hover {
+    background-color: rgb(191, 202, 41);
+    color: #000;
+}
+
+.button_sangue {
+    background-color: rgb(255, 0, 0);
+    color: #000;
+}
+
+.button_sangue:hover {
+    background-color: rgb(202, 41, 41);
+    color: #000;
+}
+
+#btnTop {
+    display: flex;
+    position: fixed;
+    right: 40px;
+    bottom: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: #27272734;
+    border-radius: 50%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+#btnTop:hover {
+    background-color: #2727279c;
+}
+
+.arrow {
+    border: solid #FFF;
+    border-width: 0px 4px 4px 0;
+    border-radius: 1px;
+    padding: 4px;
+    align-items: center;
+    display: inline-block;
+}
+
+.up {
+    transform: rotate(-135deg);
+}
